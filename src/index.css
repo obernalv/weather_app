@@ -1,0 +1,46 @@
+:root{
+    cursor: pointer;
+
+    --color-white: hsl(0 0% 100%);
+    --color-white-transparent: hsla(0 0% 93% / 0.6);
+    --color-main: hsl(15 99% 37%);
+    --color-second: hsl(24 76% 45%);
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Play", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+     
+}
+
+h1,h2,h3, p, ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+img{
+    display: block;
+}
+
+button{
+    cursor: pointer;
+}
+
+input, button{
+    font-family: inherit;
+}

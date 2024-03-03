@@ -1,0 +1,17 @@
+.error-content{
+
+    background-color: hsla(0 100% 50% / .6);
+    border-radius: 0.5em;
+    height: 5em;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .weather__error{
+
+        
+        color: var(--color-white);
+        
+    }
+}
+
